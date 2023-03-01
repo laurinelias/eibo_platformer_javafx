@@ -1,0 +1,71 @@
+.screen{
+	-fx-font-family:"Roboto";
+	-fx-background-color: rgba(0,0,0,0.5);
+	-fx-alignment: center;
+	-fx-spacing: 40;
+}
+
+.victory, .lose{
+	-fx-text-fill: white;
+	-fx-font-size: 150;
+}
+
+.button{
+	-fx-background-color: #f8f8f8;
+	-fx-text-fill: #004058;
+	-fx-border-width: 0;
+	-fx-font-size: 22;
+	-fx-pref-width: 250;
+	-fx-font-weight: 700;
+}
+
+.music-text{
+	-fx-text-fill: #f8f8f8;
+	-fx-font-size: 22;
+	-fx-font-weight: 700;
+	-fx-padding: 0 0 -20 0;
+}
+
+.level-buttons-conatiner {
+	-fx-max-width: 250;
+	-fx-spacing: 10;
+}
+
+.level-button{
+	-fx-alignment: center;
+	-fx-padding: 10;
+}
+
+.level-button.open{
+		-fx-background-color: rgba(255,255,255,0.2);
+}
+
+.level-button.close{
+	-fx-background-color: rgba(0,0,0,0.5);
+}
+
+.level-button .level-name{
+	-fx-text-fill: #f8f8f8;
+	-fx-font-size: 22;
+	-fx-font-weight: 700;
+}
+.current-level-text{
+	-fx-text-fill: #f8f8f8;
+	-fx-font-size: 35;
+	-fx-font-weight: 700;
+}
+
+.slider{
+	-fx-max-width: 250;
+}
+
+.slider .track{
+	-fx-pref-height: 2px;
+	-fx-background-color: #f8f8f8;
+}
+
+.slider .thumb{
+	-fx-background-color: #bcbcbc;
+	-fx-pref-height: 10;
+	-fx-pref-width: 10;
+}
